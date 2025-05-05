@@ -14,7 +14,7 @@ const allData = [
   [`days ago`, `天前`],
   [`ago`,`前`],
   [`New`, `新建`],
-  [`Explore repositories`, `探索存储库`],
+  [`Explore repositories`, `探索仓库`],
   [`Explore more →`, `探索更多 →`],
   [`Set status`, `设置状态`],
   [`Your profile`, `个人信息`],
@@ -97,7 +97,7 @@ const allData = [
   [`New codespace`, `新建 codespace`],
   [`Less`, `更少`],
   [`Select type`, `选择类型`],
-  [`Type`, `类型`],
+  [`Type`, `输入`],
   [`Language`, `语言`],
   [`Sort`, `排序`],
   [`Private`, `私有`],
@@ -111,7 +111,7 @@ const allData = [
   [`(optional)`, `(可选)`],
   [
     `Anyone on the internet can see this repository. You choose who can commit.`,
-    `互联网上的任何人都可以看到这个存储库。你选择谁能够提交。`,
+    `互联网上的任何人都可以看到这个仓库。你选择谁能够提交。`,
   ],
   [
     `You choose who can see and commit to this repository.`,
@@ -142,7 +142,7 @@ const allData = [
     `You are creating a public repository in your personal account.`,
     `你正在你的个人账户中创建一个公共库。`,
   ],
-  [`Initialize this repository with:`, `用以下方式初始化这个存储库：`],
+  [`Initialize this repository with:`, `用以下方式初始化这个仓库：`],
   [`Create repository`, `创建仓库`],
   [
     `Great repository names are short and memorable. Need inspiration? How about`,
@@ -338,16 +338,16 @@ const allData = [
   [`Close`, `关闭`],
   [`Success`, `完成`],
   [`Dashboard`, `仪表盘`],
-  [`to search`, `搜索`],
+  [`to search`, `以搜索`],
   [`Create your first project`, `创建您的第一个项目`],
   [
   `Ready to start building? Create a repository for a new idea or bring over an existing repository to keep contributing to it.`,
-  `准备好开始构建了吗？为新的想法创建一个存储库，或导入一个存储库以继续为它做出贡献。`,
+  `准备好开始构建了吗？为新的想法创建一个仓库，或导入一个仓库以继续为它做出贡献。`,
   ],
   [`Filter`, `筛选`],
   [`Events`, `活动`],
   [`Activity you want to see on your feed`, `您希望在推送中看到的活动`],
-  [`Stars`, `星`],
+  [`Stars`, `星标`],
   [`main`, `主干`],
   [`Default`, `默认值`],
   [`Tags`, `标签`],
@@ -362,11 +362,67 @@ const allData = [
   [`Top repositories`, `置顶的仓库`],
   [`Start writing code`, `开始编码`],
   [`Start a new repository for`, `创建一个新的仓库`],
-  [``, ``],
-  [``, ``],
-  [``, ``],
-  [``, ``],
-  [``, ``],
+  [`Home`, `主页`],
+  [`Feed`, `动态`],
+  [`Chat with Copilot`, `和 Copilot 聊聊`],
+  [`Open Copilot…`, `打开 Copilt…`],
+  [`New conversation in`, `开始新讨论…`],
+  [`Assistive`, `小窗辅助`],
+  [`Immersive`, `全屏幕`],
+  [`Download for`, `下载到…`],
+  [`Create new...`, `创建新的...`],
+  [`New gist`, `新的gist`],
+  [`Ask Copilot`, `问问Copilot…`],
+  [`Start a new repository for`, `为你创建一个仓库，`],
+  [
+    `A repository contains all of your project's files, revision history, and collaborator discussion.`,
+    `代码仓库中存储着项目的全部文件、历史修改记录以及团队协作的讨论内容`
+  ],
+  [`name your new repository...`, `为你的新仓库命名...`],
+  [
+    `Anyone on the internet can see this repository. You choose who can commit.`,
+    `互联网上的任何人都可以看到这个仓库，你可以选择谁能够提交`,
+  ],
+  [
+    `You choose who can see and commit to this repository.`, 
+    `你可以选择谁能够查看和提交到此仓库`
+  ],
+  [`Introduce yourself with a profile README`, `创建一个 README 自述文件介绍自己`],
+  [
+    `Share information about yourself by creating a profile README, which appears at the top of your profile page.`,
+    `通过创建个人主页 README 自述文件来分享您的信息，该文件将显示在个人主页顶部`
+  ],
+  [`Create`, `创建`],
+  [
+    `You're seeing this because you haven't used repositories, issues, and pull requests recently.`,
+    `您看到此信息是因为您最近没有使用过仓库、问题或合并请求`
+  ],
+  [`Copilot uses AI. Check for mistakes.`, `Copilot采用AI技术，内容仅供参考，请仔细辨别`],
+  [`Remove from dashbord`, `在仪表盘中移除该内容`],
+  [`Announcements`, `公告`],
+  [`Special discussion posts from repositories`, `来自仓库的特别讨论帖`],
+  [`Update posts from repositories`, `来自仓库的更新内容`],
+  [`Sponsors`, `赞助者`],
+  [
+    `Relevant projects or people that are being sponsored`,
+    `当前获得赞助的相关项目或人员`
+  ],
+  [`Repositories being starred by people`, `由你标星的仓库`],
+  [`Repositories that are created or forked by people`, `由你创建或fork的仓库`],
+  [`Repository activity`, `仓库中的活动`],
+  [`Issues and pull requests from repositories`, `来自仓库的问题和拉取请求`],
+  [`Follows`, `关注者`],
+  [`Who people are following`, `那些你关注的用户`],
+  [`Recommendations`, `推荐`],
+  [
+    `Repositories and people you may like`,
+    `你可能感兴趣的仓库和用户`
+  ],
+  [`Include events from starred repositories`, `包含来自标星仓库的活动`],
+  [
+    `By default, the feed shows events from repositories you sponsor or watch, and people you follow.`,
+    `默认情况下，动态会显示你赞助或关注的仓库以及你关注的用户的活动`
+  ],
 ];
 
 const MutationObserverConfig = {
